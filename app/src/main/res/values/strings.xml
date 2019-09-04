@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Split the Bill</string>
+    <string name="dialog">you eat the food \n we do the math!</string>
+    <string name="nextScreenButton">Lets Split it!</string>
+    <string-array name="serviceRating">
+        <item>* * * * *</item>
+        <item>* * * *</item>
+        <item>* * *</item>
+        <item>* *</item>
+        <item>*</item>
+    </string-array>
+    <string name="amountPeople"># of People</string>
+    <string name="billTotal">Bill Total</string>
+    <string name="tipHint">18% tip will be\nadded automatically</string>
+    <string name="tipbox">tip amount</string>
+    <string name="rateStars">rate the service</string>
+    <string name="calculateButton">Calculate</string>
+</resources>
