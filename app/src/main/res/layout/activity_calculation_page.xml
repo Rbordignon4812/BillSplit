@@ -21,25 +21,25 @@
 
     <EditText
         android:id="@+id/peopleTxt"
-        android:layout_width="138dp"
-        android:layout_height="30dp"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
         android:layout_marginTop="48dp"
         android:ems="10"
         android:hint="@string/amountPeople"
         android:inputType="number"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/billTxt"
-        android:layout_width="139dp"
-        android:layout_height="30dp"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="@string/billTotal"
         android:inputType="number"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/peopleTxt" />
 
@@ -90,10 +90,11 @@
 
     <TextView
         android:id="@+id/resultTips"
-        android:layout_width="126dp"
-        android:layout_height="25dp"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
         android:layout_marginEnd="8dp"
         android:background="#19204E"
+        android:textColor="#D8C7C7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ratingSpinner" />
 
@@ -121,6 +122,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:background="#19204E"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultTips" />
 
@@ -140,6 +142,7 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:background="#19204E"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultPeople" />
 </androidx.constraintlayout.widget.ConstraintLayout>

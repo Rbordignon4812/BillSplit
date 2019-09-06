@@ -40,7 +40,7 @@ public class calculationPage extends AppCompatActivity {
                 tipTotal = tip18 * billTotal;
                 splitResult = (double)(tipTotal + billTotal) / numPeople;
                 ratingStars = group.getSelectedItem().toString();
-                resultPeople.setText(numPeople);
+                resultPeople.setText(Integer.toString(numPeople) );
                 resultTip.setText(currency.format(tipTotal));
                 resultSplit.setText(currency.format(splitResult));
             }
